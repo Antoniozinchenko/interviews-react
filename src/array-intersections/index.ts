@@ -1,12 +1,12 @@
 /**
  * 
  * 
- * User going to report working hours, but doesn't know when will be day offs and vacations.
+ * User is going to report working hours, but doesn't know when will be day offs and vacations.
  * So our goal is to fix parseData method and return reporting data excluded vacations.
  * 
  * Assumptions
  * - data and vacations arrays are already sorted and valid (don't have duplications or intersected elements inside)
- * - vacaion days can be included inside result
+ * - vacaion start and end days can be included inside result
  * 
  * 
  * Example:
